@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, E::class.java )
         startActivity(intent)
     }
-
-
+    fun page_morning(view: View){
+        val intent = Intent(this, Morning::class.java )
+        startActivity(intent)
+    }
 }

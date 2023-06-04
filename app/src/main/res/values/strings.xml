@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">schedule</string>
+    <string name="app_name">一日遊</string>
     <string name="title_activity_a4">A4Activity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
