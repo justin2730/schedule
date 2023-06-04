@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +15,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page1"
+            android:onClick="page_e_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,7 +23,7 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page3"
+            android:onClick="page_e_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -27,11 +31,60 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/page1"
+    <TextView android:id="@+id/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="第2頁"/>
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="大雪山森林遊樂區"/>
+
+    <TextView
+        android:id="@+id/page15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="大雪山常年氣候涼爽，春天的大雪山生機蓬勃；夏天的大雪山涼爽宜人；秋天的大雪山紅榨槭楓紅；冬天的大雪山雪花紛飛。無論哪㇐個季節都非常適合上山享受森林浴的洗禮。走在原始林的森林浴場歩道偶爾可見山羌、⾧鬃山羊、白面鼯鼠、帝雉、藍腹鷴與冠羽畫眉等野生動物。園內有多處觀景台隨時可以休息並觀賞群山環繞的美景。"/>
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址：台灣台中市和平區雪山路18 號"/>
+
+    <TextView
+        android:id="@+id/txw44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="電話：04 2587 7901"/>
+
+    <TextView
+        android:id="@+id/txw74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="營業時間：每天06:30 – 17:00"/>
+
+    <TextView
+        android:id="@+id/txw24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="門票: 平日全票$150/人，假日$200/人，65 歲以上優待票$10/人"/>
+
 
 </LinearLayout>
+</ScrollView>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +15,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page2"
+            android:onClick="page_d_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,19 +23,61 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page0"
+            android:onClick="page_d_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="回首頁" />
+            android:text="下一頁" />
 
     </LinearLayout>
 
+    <TextView android:id="@+id/page1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:text="櫻花鉤吻鮭生態中心"/>
+
+
     <TextView
-        android:id="@+id/page1"
+        android:id="@+id/page15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="第2頁"/>
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="有櫻花鉤吻鮭魚體介紹、在臺灣的分布及復育放養現況等解說與影片，還有櫻花鉤吻鮭標本、櫻花鉤吻鮭和苦花展示於模擬天然棲地的水族缸中，可以近距離觀賞櫻花鉤吻鮭。此外亦全天播放「台灣櫻花鉤吻鮭歷史溪流放流紀錄影片」給所有遊客欣賞。"/>
+
+    <TextView
+        android:id="@+id/txw74"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址：台中市和平區武陵路3 之8 號"/>
+
+    <TextView
+        android:id="@+id/txw54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="電話：04 2590 1350"/>
+
+    <TextView
+        android:id="@+id/txw44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="營業時間：09:00~17:00，周㇐休息"/>
 
 </LinearLayout>
+</ScrollView>

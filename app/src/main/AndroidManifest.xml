@@ -21,51 +21,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".A">
-        </activity>
-        <activity
-            android:name=".A_2">
-        </activity>
-        <activity
-            android:name=".A_3">
-        </activity>
-        <activity
-            android:name=".B">
-        </activity>
-        <activity
-            android:name=".B_2">
-        </activity>
-        <activity
-            android:name=".B_3">
-        </activity>
-        <activity
-            android:name=".C">
-        </activity>
-        <activity
-            android:name=".C_2">
-        </activity>
-        <activity
-            android:name=".C_3">
-        </activity>
-        <activity
-            android:name=".D">
-        </activity>
-        <activity
-            android:name=".D_2">
-        </activity>
-        <activity
-            android:name=".D_3">
-        </activity>
-        <activity
-            android:name=".E">
-        </activity>
-        <activity
-            android:name=".E_2">
-        </activity>
-        <activity
-            android:name=".E_3">
-        </activity>
+        <activity android:name=".A" />
+        <activity android:name=".A_2" />
+        <activity android:name=".A_3" />
+        <activity android:name=".A_4" />
+        <activity android:name=".A_5" />
+        <activity android:name=".A_6" />
+        <activity android:name=".A_7" />
+        <activity android:name=".A_8" />
+        <activity android:name=".A_photo"/>
+        <activity android:name=".B" />
+        <activity android:name=".B_2" />
+        <activity android:name=".B_3" />
+        <activity android:name=".B_4" />
+        <activity android:name=".B_5" />
+        <activity android:name=".B_6" />
+        <activity android:name=".B_7" />
+        <activity android:name=".B_photo" />
+        <activity android:name=".C" />
+        <activity android:name=".C_2" />
+        <activity android:name=".C_3" />
+        <activity android:name=".C_4" />
+        <activity android:name=".C_5" />
+        <activity android:name=".C_6" />
+        <activity android:name=".C_7" />
+        <activity android:name=".C_photo" />
+        <activity android:name=".D" />
+        <activity android:name=".D_2" />
+        <activity android:name=".D_3" />
+        <activity android:name=".D_4" />
+        <activity android:name=".D_5" />
+        <activity android:name=".D_6" />
+        <activity android:name=".D_lunch" />
+        <activity android:name=".D_photo" />
+        <activity android:name=".E" />
+        <activity android:name=".E_2" />
+        <activity android:name=".E_3" />
+        <activity android:name=".E_4" />
+        <activity android:name=".E_photo" />
     </application>
 
 </manifest>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,32 +16,41 @@
         android:onClick="page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方案1" />
+        android:text="谷關一日遊" />
 
     <Button
         android:id="@+id/btn_to_2"
         android:onClick="page2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方案2" />
+        android:text="柳川綠川一日遊" />
     <Button
         android:id="@+id/btn_to_3"
         android:onClick="page3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方案3" />
+        android:text="后豐鐵馬道一日遊" />
 
     <Button
         android:id="@+id/btn_to_4"
         android:onClick="page4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方案4" />
+        android:text="武陵農場一日遊" />
     <Button
         android:id="@+id/btn_to_5"
         android:onClick="page5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方案5" />
+        android:text="大雪山森林遊樂區㇐日遊" />
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_1" />
+
 
 </LinearLayout>
+</ScrollView>

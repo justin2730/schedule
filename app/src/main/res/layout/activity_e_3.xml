@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -11,7 +16,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page2"
+            android:onClick="page_e_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,19 +24,43 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page0"
+            android:onClick="page_e_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="回首頁" />
+            android:text="下一頁" />
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/page1"
+    <TextView android:id="@+id/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="第2頁"/>
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="小雪山天池"/>
+
+    <TextView
+        android:id="@+id/page15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="「小雪山天池」位於小雪山南稜，海拔2600 公尺，面積約0.4 公頃，是㇐座小型的高山湖泊。終年不涸，池水倒映著湛藍天空與碧綠群山，如同寶石㇐樣閃爍耀眼；雲霧飄渺時，覆蓋著㇐絲空靈神秘感；冬季雪花紛飛，帶來㇐片銀白世界，美不勝收的場景令人嘆為觀止。從大雪山神木停車場出發，環湖全程約20 分鐘，是大雪山森林遊樂區內最輕鬆的㇐條步道。"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/e_4" />
+
 
 </LinearLayout>
+</ScrollView>

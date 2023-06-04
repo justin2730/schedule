@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".B_3"
     android:orientation="vertical">
 
     <LinearLayout
@@ -11,7 +19,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page2"
+            android:onClick="page_b_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,19 +27,67 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page0"
+            android:onClick="page_b_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="回首頁" />
+            android:text="下一頁" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="第二市場"/>
 
     <TextView
         android:id="@+id/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="第2頁"/>
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:text="第二市場原為日治時期的新富町市場，主要販售精美高價的貨品，又有「日本人的市場」之稱，後經台中市政府全面整修而成現今風貌，自創立已有近八十年的歷史。市場內的爌肉飯、麻芛、香菇肉羹、紅茶、麵攤，都是有數十年歷史的老小吃攤，隨意撿家坐下，端上的都是一碗碗經過數十年歲月，無數老饕鑑賞過的美食。第二市場內集結眾多知名的美味小吃，山河滷肉飯、老賴紅茶、老王菜頭粿、鄒記蔥油餅、李海魯肉飯、茂川肉丸、顏記肉包、福州意麵等，都是在地人難忘的好味道，也是外地人常慕名而來的知名美食。"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址："/>
+
+    <TextView
+        android:id="@+id/txw6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="台中市中區三民路二段87號"/>
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：07:00~17:00"/>
+
+    <TextView
+        android:id="@+id/txw8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="聯絡電話：04 2225 4222"/>
 
 </LinearLayout>
+</ScrollView>

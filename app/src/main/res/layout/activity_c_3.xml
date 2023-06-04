@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".C_3"
     android:orientation="vertical">
 
     <LinearLayout
@@ -11,7 +18,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page2"
+            android:onClick="page_c_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,19 +26,57 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page0"
+            android:onClick="page_c_4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="回首頁" />
+            android:text="下一頁" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="舊山線鐵道"/>
+
+    <TextView
+        android:id="@+id/txw22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="(大甲溪花樑鋼橋)"/>
+
 
     <TextView
         android:id="@+id/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="25dp"
-        android:text="第2頁"/>
+        android:text="這座橫跨大甲溪的鐵橋， 是昔日舊山線的四座鐵橋之一，完工於日治時代明治41年（1908），歷史超過百年， 已被文建會列為歷史建築。在所見的大甲溪鐵橋，是日治時期地震後重建的模樣，全長382公尺，由六個鋼桁架構成， 而被稱為「花樑鋼橋」。後來台灣鐵路於70年代初期進行鐵路電氣化工程，后里與豐原間的鐵路路線改道至新山線，其後停駛鐵橋與九號隧道。2004年拆除鐵軌之後，將原來的鐵路路線規劃改造成為鐵馬專用車道"/>
+
+
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：06:00–19:00"/>
+
+
 
 </LinearLayout>
+</ScrollView>

@@ -12,13 +12,13 @@ class B_2 : AppCompatActivity() {
         setContentView(R.layout.activity_b_2)
     }
 
-    fun page1(view: View){
-        val intent = Intent(this, A::class.java )
+    fun page_b_1(view: View){
+        val intent = Intent(this, B::class.java )
         startActivity(intent)
     }
 
-    fun page3(view: View){
-        val intent = Intent(this, A_3::class.java )
+    fun page_b_3(view: View){
+        val intent = Intent(this, B_3::class.java )
         startActivity(intent)
     }
 }

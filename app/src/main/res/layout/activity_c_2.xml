@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +15,7 @@
 
         <Button
             android:id="@+id/btn1_to_3"
-            android:onClick="page1"
+            android:onClick="page_c_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -19,7 +23,7 @@
 
         <Button
             android:id="@+id/btn1_to_2"
-            android:onClick="page3"
+            android:onClick="page_c_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -28,10 +32,58 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="鐵道之鄉酒莊"/>
+
+    <TextView
         android:id="@+id/page1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="25dp"
-        android:text="第2頁"/>
+        android:text="別具特色的歐式庭園內，有許多好拍的藝術造景、火車造型的建築物、酒桶裝飾成的金字塔，園內都能拍出不少趣味的相片，登上三樓觀景台，還能欣賞遼闊的鐵馬道風光。園內設有品酒室、紅土酒窖、戶外野餐區，也可以來這用餐午茶，品嚐特色的葡萄酒。館內能試吃農產品買買伴手禮，其中招牌的洋蔥葡萄酒、梅子酒、梅子酵素、蜂蜜酒等都是熱門產品。"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址："/>
+
+    <TextView
+        android:id="@+id/txw6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="台中市豐原區朴子街260巷2弄32號"/>
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：9:30 ~ 18:00"/>
+
+    <TextView
+        android:id="@+id/txw8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="聯絡電話：04 2512 3393"/>
 
 </LinearLayout>
+</ScrollView>
