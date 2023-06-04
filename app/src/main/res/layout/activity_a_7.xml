@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A_7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_a_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_a_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="明治溫泉老街"/>
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="明治溫泉老街是老字號飯店「谷關明治溫泉飯店」的環境設施之一，也是大家必訪的拍照景點，這裡的石階步道裡將日式燈籠、日本許願繪馬、許願鐘等元素結合，濃濃日式風情，宛如置身日本的感覺。"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址："/>
+
+    <TextView
+        android:id="@+id/txw6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="台中市和平區東關路一段溫泉巷17號"/>
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：24小時"/>
+
+
+
+</LinearLayout>
+</ScrollView>

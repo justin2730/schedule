@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_d_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_d_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="武陵吊橋"/>
+
+    <TextView
+        android:id="@+id/page15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="開車可以到達，是通往桃山瀑布的必經之路，除了參觀吊橋步道
+也可以走㇐小段桃山瀑布步道，享受走在樹林中的感覺，運氣好的話在步
+道旁就有機會遇見藍腹鷴。"/>
+
+</LinearLayout>
+</ScrollView>

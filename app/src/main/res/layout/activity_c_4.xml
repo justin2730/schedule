@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_c_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_c_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="九號隧道"/>
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="九號隧道長1269公尺，是舊山線九座隧道中最長的隧道，也是后豐鐵馬道最具特色的路段。騎著單車通過這百年歷史的舊隧道，也彷彿走進入時光隧道裡。隧道內的避車凹處， 展示著日治時代舊山線的老照片，頗令人引發思古之幽情。"/>
+
+
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：06:00–18:00"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/c_3" />
+
+</LinearLayout>
+</ScrollView>

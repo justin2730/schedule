@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_c_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_c_photo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="石岡水壩"/>
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="岡水壩位於豐原往東勢的路上，由於石岡水壩附近的自然景觀保持相當完整，經常可以發現小白鷺鷥、藍鷓鴣等鳥類出沒，是中部地區極佳的賞鳥觀察點。埤豐大橋處因921地震錯動而形成小瀑布，且水壩入口處旁更有原由廢棄的鐵道改成的東豐自行車綠廊，也是一特別的景觀。"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="地址："/>
+
+    <TextView
+        android:id="@+id/txw6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="台中市石岡區豐勢路1238號"/>
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="開放時間：06:00–18:00"/>
+
+    <TextView
+        android:id="@+id/txw8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="聯絡電話：04 2572 2830"/>
+
+</LinearLayout>
+</ScrollView>

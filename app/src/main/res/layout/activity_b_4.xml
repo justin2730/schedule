@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".B_4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_b_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_b_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="美食推薦(第二市場內):"/>
+
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:text="王家菜頭粿糯米腸"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="地址：台中市中區三民路二段87號"/>
+
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="營業時間：6:30~18:00"/>
+
+    <TextView
+        android:id="@+id/txw8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="聯絡電話: 04 2595 1496"/>
+
+    <TextView
+        android:id="@+id/txw20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:text="鄒氏餡餅蔥油餅"/>
+
+    <TextView
+        android:id="@+id/txw21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="地址：台中市中區三民路二段"/>
+
+    <TextView
+        android:id="@+id/txw23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="營業時間：12:00~18:00"/>
+
+    <TextView
+        android:id="@+id/txw24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="聯絡電話: 09 2898 8998"/>
+
+    <TextView
+        android:id="@+id/txw30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:text="魯肉邱"/>
+
+    <TextView
+        android:id="@+id/txw31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="地址：台中市中區台灣大道一段403巷5號"/>
+
+    <TextView
+        android:id="@+id/txw32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="營業時間：08:00~13:30，周一、二休息"/>
+
+    <TextView
+        android:id="@+id/txw33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="聯絡電話: 無"/>
+
+    <TextView
+        android:id="@+id/txw40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:text="三代福州意麵老店"/>
+
+    <TextView
+        android:id="@+id/txw41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="地址：台中市中區三民路二段1之7號"/>
+
+    <TextView
+        android:id="@+id/txw42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="營業時間：10:00~16:30，周三休息"/>
+
+    <TextView
+        android:id="@+id/txw43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="聯絡電話: 04 2220 4335"/>
+</LinearLayout>
+</ScrollView>

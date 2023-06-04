@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_to_3"
+            android:onClick="page_c_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一頁" />
+
+        <Button
+            android:id="@+id/btn1_to_2"
+            android:onClick="page_c_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一頁" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="后里馬場"/>
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="景點介紹:"/>
+
+    <TextView
+        android:id="@+id/txw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="國內最具歷史及規模的公營馬場，其中第一、二馬廄及場本部興建於1912年(民國元年)，為日治時期臺灣總督府的產馬牧場，臺灣光復後作為種馬繁殖及國防騎兵之訓練場所，隨著時代轉變，已轉型為具觀光休閒遊憩的馬場，將馬場古蹟：日據時代的場本部、場長宿舍等，規劃成主題式餐廳、咖啡館、文創商店及展覽館，留住了典雅的日式氛圍，並將馬術體驗推廣給大眾，至今仍然保有日據時期完善的歷史建築及古樸風格。遊客除可欣賞馬術表演外，亦也可購票乘坐馬車或是由專人指導騎馬，一享馳聘原野的樂趣。"/>
+
+    <TextView
+        android:id="@+id/txw9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="門票: 100元"/>
+
+    <TextView
+        android:id="@+id/txw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="地址：台中市后里區寺山路41號"/>
+
+
+    <TextView
+        android:id="@+id/txw7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="開放時間：10:00 ~ 17:00，周一休息"/>
+
+    <TextView
+        android:id="@+id/txw8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="聯絡電話：04 2558 8018"/>
+
+</LinearLayout>
+</ScrollView>
