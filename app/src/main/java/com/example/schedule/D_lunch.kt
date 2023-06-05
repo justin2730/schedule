@@ -9,7 +9,7 @@ class D_lunch : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_d_photo)
+        setContentView(R.layout.activity_d_lunch)
     }
 
     fun page_d_6(view: View){

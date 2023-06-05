@@ -17,7 +17,7 @@ class D_photo : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun page0(view: View){
+    fun main(view: View){
         val intent = Intent(this,MainActivity ::class.java )
         startActivity(intent)
     }
